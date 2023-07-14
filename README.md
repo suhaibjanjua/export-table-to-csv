@@ -3,10 +3,10 @@
 [![npm version](https://badge.fury.io/js/export-table-to-csv.svg)](https://www.npmjs.com/package/export-table-to-csv)
 [![license](https://img.shields.io/npm/l/export-table-to-csv)](https://github.com/suhaibjanjua/export-table-to-csv/blob/main/LICENSE.md)
 
-Fast and lightweight html TABLE to CSV converter. This package includes two modules:
+Fast and lightweight html TABLE to CSV exporter. This package includes two modules:
 
-  * **[ExportMatTableToCSV](#exportfrommattable):** A synchronous mat TABLE(`<mat-table>`) to CSV converter written in plain JavaScript. It's fast and simple to use.
-  * **[ExportTableToCSV](#exportfromtable):** A synchronous html TABLE(`<table>`) to CSV converter written in plain js. Really fast and supports large datasets.
+  * **[ExportMatTableToCSV](#exportfrommattable):** A synchronous mat TABLE(`<mat-table>`) to CSV exporter written in simple JavaScript. It's fast and simple to use.
+  * **[ExportTableToCSV](#exportfromtable):** A synchronous html TABLE(`<table>`) to CSV exporter written in simple JavaScript. Really fast and supports large datasets.
 
 
 ### Features
@@ -45,7 +45,7 @@ $ yarn add export-table-to-csv
 
 `ExportMatTableToCSV` can be used programmatically as a synchronous converter.
 
-It retrieves the entire Angular Material Table with the tag (`<mat-table>`) that matches to the param `tableId` to load headers and rows to converts the data into the CSV format, and initiates the file download for the user.
+It retrieves the entire Angular Material Table with the tag (`<mat-table>`) that matches to the param `tableId` to load headers and rows to converts the data into the CSV format, and export the file as download for the user.
 
 
 ### Usage

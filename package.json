@@ -1,6 +1,6 @@
 {
     "name": "export-table-to-csv",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "description": "Fast and lightweight html TABLE to CSV exporter. It exposes two modules ExportMatTableToCSV and ExportTableToCSV that enables exporting data from an Angular Material table (<mat-table>) or a standard table (<table>) into a Comma-Separated Values (CSV) format.",
     "main": "src/index.min.js",
     "scripts": {
